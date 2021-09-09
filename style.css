@@ -1,0 +1,93 @@
+/*---------- Body ----------*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+}
+
+/*---------- Header ----------*/
+#header {
+    width: 900px;
+    padding: 10px;
+    border-radius: 0px 150px 150px 0px;
+    background: #506C86;
+}
+
+#header tr:nth-child(1) {
+    font-size: 30px;
+    color: #FFF;
+}
+
+#header tr:nth-child(2) {
+    font-size: 20px;
+    color: #313131;
+    font-weight: bold;
+}
+
+#header tr {
+    color: #FFF;
+}
+
+/*---------- Body Table ----------*/
+#body-table {
+    width: 900px;
+    margin-top: 30px;
+}
+
+.title-habilities {
+    width: 130px;
+    margin: 0px;
+    padding: 3px 20px;
+    background: #506C86;
+    color: #FFF;
+}
+
+#skills h4 {
+    margin-bottom: 0;
+    color: #FFF;
+}
+
+#skills p {
+    margin: 0;
+    font-size: 13px;
+    color: #FFF;
+}
+
+/*---------- Body Experiences ----------*/
+#knowledge {
+    padding: 15px 10px;
+}
+
+.title-experiences {
+    width: 275px;
+    margin: 0px;
+    padding: 3px 20px;
+    background: #506C86;
+    color: #FFF;
+}
+
+.occupation {
+    width: 320px;
+    padding: 5px;
+    background: #313131;
+    color: #FFF;
+}
+
+#knowledge td {
+    padding: 0px;
+}
+
+#knowledge ul {
+    margin: 0;
+    padding: 0px 20px;
+}
+
+#knowledge h1 {
+    margin: 0;
+}
+
+#knowledge h3 {
+    margin-top: 10px;
+}
