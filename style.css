@@ -1,3 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+
+    width: 100%;
+}
+
+#menu-foto{
+    background-color: #C7DBE7;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#centralizador-imagem{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#imagem-foto{
+
+    width: 50%;
+
+
+}
+
+#menu-descricao{
+
+    width: 65%;
+    height: 100vh;
+    background-color: #749BB0;
+}
+
+#foto{
+    margin: 0;
+    padding: 0;
+
+}
+
 /*---------- Body ----------*/
 body {
     display: flex;
@@ -32,12 +81,12 @@ body {
 
 /*---------- Body Table ----------*/
 #body-table {
-    width: 900px;
-    margin-top: 30px;
+ 
+    margin-top: 10px;
 }
 
 .title-habilities {
-    width: 130px;
+    
     margin: 0px;
     padding: 3px 20px;
     background: #506C86;
@@ -58,10 +107,11 @@ body {
 /*---------- Body Experiences ----------*/
 #knowledge {
     padding: 15px 10px;
+    width: 100%;
 }
 
 .title-experiences {
-    width: 275px;
+    width: 100%;
     margin: 0px;
     padding: 3px 20px;
     background: #506C86;
@@ -69,13 +119,14 @@ body {
 }
 
 .occupation {
-    width: 320px;
-    padding: 5px;
+    width: 100%;
+    
     background: #313131;
     color: #FFF;
 }
 
 #knowledge td {
+
     padding: 0px;
 }
 
